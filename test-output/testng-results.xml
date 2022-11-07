@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-22T06:46:37 IST" name="Suite" finished-at="2022-10-22T06:46:40 IST" duration-ms="3595">
+    <groups>
+    </groups>
+    <test started-at="2022-10-22T06:46:37 IST" name="Test" finished-at="2022-10-22T06:46:40 IST" duration-ms="3595">
+      <class name="com.baseclass.BaseClass">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.baseclass.BaseClass@593aaf41]" started-at="2022-10-22T06:46:34 IST" name="browserLaunch" finished-at="2022-10-22T06:46:37 IST" duration-ms="2958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="url(java.lang.String)[pri:0, instance:com.baseclass.BaseClass@593aaf41]" started-at="2022-10-22T06:46:37 IST" name="url" finished-at="2022-10-22T06:46:40 IST" duration-ms="2873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/login/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="takesScreenshot(java.lang.String)[pri:0, instance:com.baseclass.BaseClass@593aaf41]" started-at="2022-10-22T06:46:40 IST" name="takesScreenshot" finished-at="2022-10-22T06:46:41 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpage2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesScreenshot -->
+      </class> <!-- com.baseclass.BaseClass -->
+      <class name="com.execution.LoginPageExecution">
+        <test-method signature="url(java.lang.String)[pri:0, instance:com.execution.LoginPageExecution@5d0bf09b]" started-at="2022-10-22T06:46:40 IST" name="url" finished-at="2022-10-22T06:46:40 IST" duration-ms="670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/login/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+      </class> <!-- com.execution.LoginPageExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
